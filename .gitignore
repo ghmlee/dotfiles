@@ -61,3 +61,4 @@
 .terminfo
 .fastlane
 .bundle
+.zsh_history

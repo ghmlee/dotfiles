@@ -14,13 +14,6 @@ alias python=python3
 alias pip=pip3
 
 if [ -n "$INSIDE_EMACS" ]; then
-    export PS1="\h:\W \u$ "
-    export PATH=/usr/local/bin:$PATH
-
-    alias emacs=""
-    alias e=""
-fi
-
-if [ -n "$STY" ]; then
-    export PS1="\h:\W \u$ "
+  alias emacs=""
+  alias e=""
 fi
